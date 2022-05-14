@@ -25,7 +25,7 @@ a {
 
 body {
     position: relative;
-    max-height: 1834px;
+
 }
 
 header {
@@ -84,26 +84,60 @@ header {
     color: white;
 }
 
+@media (max-width:1025px) {
+    .menu {
+        display: none;
+    }
+
+    .inner_menu {
+        display: none;
+    }
+
+    .h_logo {
+        height: 75px;
+        width: 135px;
+        left: 121px;
+        top: 23px;
+        border-radius: 0px;
+        left: 121px;
+        top: 23px;
+    }
+
+    header {
+        height: 120px;
+        bottom: 0px;
+        margin: 0 auto;
+    }
+
+    .bottom {
+        position: relative;
+        
+
+    }
+}
+
 .bottom {
     position: relative;
-    margin: 50px 40px 40px 88px;
+margin: 50px 40px 40px 88px;
 }
+
 
 .floating_text {
     position: absolute;
-    font-family: Zona Pro;
-    font-size: 72px;
-    font-weight: 800;
-    line-height: 85px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: black;
-    height: 255px;
-    width: 1077px;
-    margin: 30px 717px 321px 0px;
-    top: 157px;
-    border-radius: nullpx;
-    flex-wrap: wrap;
+        font-family: Zona Pro;
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 85px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;
+        height: 255px;
+        width: 1077px;
+        margin: 30px 717px 321px 0px;
+        top: 157px;
+        border-radius: nullpx;
+        flex-wrap: wrap;
+        
 }
 
 .icons {
@@ -168,6 +202,62 @@ header {
     width: 785.952880859375px;
 }
 
+@media(max-width:1024px) {
+    body {
+        max-width: 1024px;
+    }
+
+    .floating_text {
+        position: absolute;
+        font-family: Zona Pro;
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 85px;
+        letter-spacing: 0em;
+        text-align: left;
+        top: 50px;
+        left: 45px;
+
+        width: 867px;
+    }
+
+    .float_box {
+        margin: 480px 857px 800px 47px;
+    }
+
+    .bottom_text {
+        margin: 490px 332px 815px 233px;
+    }
+
+    .unicorn {
+        top: 694px;
+        right: 49px;
+        bottom: 42px;
+        left: 189px;
+
+    }
+
+    .unicorn img {
+        height: 733px;
+        width: 786px;
+        left: 189px;
+        top: 694px;
+        border-radius: 0px;
+
+    }
+
+    .icons {
+        top: 198px;
+        left: 47px;
+    }
+
+    footer {
+        margin-top: 50%;
+    }
+
+}
+
+
 footer {
     position: relative;
     width: inherit;
@@ -180,6 +270,7 @@ footer {
     width: inherit;
     top: 1019px;
 }
+
 .toy_stream {
     font-family: Akrobat;
     font-size: 16px;
@@ -214,4 +305,14 @@ footer {
     border-radius: 0px;
     position: absolute;
     z-index: -3;
+}
+
+@media(max-width:1025px) {
+    .color {
+        height: 1600px;
+        width: 927px;
+        left: 97px;
+        top: 0px;
+        border-radius: 0px;
+    }
 }
